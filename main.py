@@ -9,8 +9,8 @@ import daka  # 打卡模块
 import os
 
 # 账号 密码等信息 Actions部署
-id = os.environ["ID"]
-pwd = os.environ["PWD"]
+id = os.environ["id"]
+pwd = os.environ["pwd"]
 
 # 邮箱信息   == 如果不使用邮件模块，请将下列三行代码加 # 注释
 MAIL_USER = os.environ["MAIL_USER"]  # QQ邮箱账户
